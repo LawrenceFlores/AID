@@ -130,7 +130,7 @@
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="0dp"
                         android:gravity="center"
-                        android:text="Item Description awkd awwdawda dawdada adwdadwjankdsak asdknjawndka sdakwdn asdaw wafafa kajwdnkawa"
+                        android:text="Item Description dawkd awwdawda dawdada adwdadwjankdsak asdknjawndka sdakwdn asdaw wafafa kajwdnkawa"
                         android:textSize="18sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
