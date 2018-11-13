@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:includeFontPadding="true"
-            android:text="Compass"
+            android:text="Flashlight"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textSize="34sp"
@@ -56,8 +56,8 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="194dp"
-        android:layout_height="327dp"
+        android:layout_width="145dp"
+        android:layout_height="294dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -70,6 +70,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-        app:srcCompat="@drawable/nesw" />
+        app:srcCompat="@drawable/off" />
 
 </android.support.constraint.ConstraintLayout>
