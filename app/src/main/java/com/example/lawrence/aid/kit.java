@@ -71,82 +71,82 @@ public class kit extends AppCompatActivity implements View.OnClickListener{
             case R.id.alcohol_id:
                 itemImage.setImageResource(R.drawable.alcohol);
                 itemName.setText("Alcohol");
-                itemDescription.setText("This is alcohol!");
+                itemDescription.setText("Rubbing/Ethyl/Isopropyl is a disinfecting and sterilizing agent, because it kills bacteria, fungus and viruses. Nurses use it to clean skin of pathogens prior to giving an injection.");
                 break;
             case R.id.gauze_id:
                 itemImage.setImageResource(R.drawable.bandage);
-                itemName.setText("Gauze");
-                itemDescription.setText("This is gauze!");
+                itemName.setText("Bandage");
+                itemDescription.setText("Bandage  is a piece of material used either to support a medical device such as a dressing or splint, or on its own to provide support to or to restrict the movement of a part of the body. ");
                 break;
             case R.id.bandaid_id:
                 itemImage.setImageResource(R.drawable.bandaid);
                 itemName.setText("Bandaid");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Band aids are used to protect the wound and scab from friction, bacteria, damage, and dirt.");
                 break;
             case R.id.battery_id:
                 itemImage.setImageResource(R.drawable.battery);
                 itemName.setText("Battery");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Battery is used to supply the necessary current to start devices such as flashlight, radios, or other small electronic devices.");
                 break;
             case R.id.candle_id:
                 itemImage.setImageResource(R.drawable.candle);
-                itemName.setText("candle");
-                itemDescription.setText("This is candle");
+                itemName.setText("Candle");
+                itemDescription.setText("Use an open flame to ignite the candle's wick, which melts and vaporizes a small amount of the wax and form a constant flame to be used as a light/heat source.");
                 break;
             case R.id.flashlight_id:
                 itemImage.setImageResource(R.drawable.flashlightkit);
-                itemName.setText("Battery");
-                itemDescription.setText("This is bandaid");
+                itemName.setText("Flashlight");
+                itemDescription.setText("A flashlight consists of the light source mounted in a reflector, a transparent cover to protect the light source and reflector, a battery, and a switch.");
                 break;
             case R.id.can_id:
                 itemImage.setImageResource(R.drawable.food);
                 itemName.setText("Food");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("food is to keep us alive and fueled. Dried food/food without water lasts longer.");
                 break;
             case R.id.gloves_id:
                 itemImage.setImageResource(R.drawable.gloves);
                 itemName.setText("Gloves");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Gloves help keep your hands clean and lessen your chance of getting germs that can make you sick.");
                 break;
             case R.id.matches_id:
                 itemImage.setImageResource(R.drawable.match);
                 itemName.setText("Match/Lighter");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Matchsticks/Lighters provide a small amount of fuel to create an open flame from the burning chemicals on the tip.");
                 break;
             case R.id.medicine_id:
                 itemImage.setImageResource(R.drawable.medicine);
                 itemName.setText("Medicine");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Medicines are chemicals or compounds used to cure, halt, or prevent disease.");
                 break;
             case R.id.scissors_id:
                 itemImage.setImageResource(R.drawable.scissors);
                 itemName.setText("Scissors");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Scissors are used for cutting various thin materials, such as paper, cardboard, metal foil, cloth, rope, and wire.");
                 break;
             case R.id.tape_id:
                 itemImage.setImageResource(R.drawable.tape);
                 itemName.setText("Tape");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("A tape is  a strip of cloth, paper, or plastic with an adhesive surface, used for sealing, binding, or attaching items together.");
                 break;
             case R.id.tissue_id:
                 itemImage.setImageResource(R.drawable.tissue);
                 itemName.setText("Tissue/Wipes");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Hygienic tissue paper is commonly used for facial tissue, napkins, bathroom tissue and household towels. Tissue paper has been used for hygiene purposes.");
                 break;
             case R.id.umbrella_id:
                 itemImage.setImageResource(R.drawable.umbrella);
                 itemName.setText("Umbrella");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("An umbrella is a folding canopy supported by wooden or metal ribs, which is usually mounted on a wooden, metal, or plastic pole designed to protect a person against rain or sunlight.");
                 break;
             case R.id.water_id:
                 itemImage.setImageResource(R.drawable.water);
                 itemName.setText("Water");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Drinking Water Helps Maintain the balance of body fluids.");
                 break;
             case R.id.whistle_id:
                 itemImage.setImageResource(R.drawable.whistle);
                 itemName.setText("Whistle");
-                itemDescription.setText("This is bandaid");
+                itemDescription.setText("Whistle is an important item for every emergency preparedness kit. This durable whistle can be heard from long distances and comes with a convenient lanyard so it can be worn around the neck. This highly-visible whistle produces a piercing sound which can be useful in emergency situations.");
                 break;
 
             default:

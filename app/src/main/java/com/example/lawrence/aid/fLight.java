@@ -82,7 +82,12 @@ public class fLight extends AppCompatActivity {
     }
 
     public void back(View v) {
-
+        CameraManager cameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
+        try {
+            String cameraId = cameraManager.getCameraIdList()[0];
+            cameraManager.setTorchMode(cameraId, false);
+        } catch (CameraAccessException e) {
+        }
         onBackPressed();
 
     }
