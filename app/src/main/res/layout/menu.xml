@@ -45,13 +45,14 @@
         app:srcCompat="@drawable/icon" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/hotlinesButton"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:onClick="hotLines"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
@@ -61,36 +62,39 @@
         android:id="@+id/imageButton3"
         android:layout_width="110dp"
         android:layout_height="110dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
-        android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:onClick="siren"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:srcCompat="@drawable/siren" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/FlashLight"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:onClick="flashLight"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/hotlinesButton"
         app:srcCompat="@drawable/flashlight" />
 
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="110dp"
         android:layout_height="116dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
-        android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:onClick="Compass"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
@@ -100,13 +104,14 @@
         android:id="@+id/imageButton6"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
+        android:onClick="kits"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/FlashLight"
         app:srcCompat="@drawable/kit" />
 
 </android.support.constraint.ConstraintLayout>

@@ -33,10 +33,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/back"
             android:layout_width="50dp"
             android:layout_height="0dp"
             android:background="#2f7a9a"
+            android:onClick="backButton"
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +48,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
@@ -334,14 +336,17 @@
                 android:id="@+id/textView17"
                 android:layout_width="265dp"
                 android:layout_height="27dp"
+                android:layout_marginEnd="12dp"
                 android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:text="PHILIPPINE RED CROSS"
                 android:textColor="@android:color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
                 app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
             <TextView

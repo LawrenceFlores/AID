@@ -45,7 +45,7 @@
         app:srcCompat="@drawable/icon" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/hotlinesButton"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginLeft="8dp"
@@ -66,12 +66,12 @@
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/hotlinesButton"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:srcCompat="@drawable/siren" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/FlashLight"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginEnd="8dp"
@@ -95,7 +95,7 @@
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/FlashLight"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:srcCompat="@drawable/compass" />
 

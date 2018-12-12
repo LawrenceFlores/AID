@@ -3,6 +3,8 @@
     package="com.example.lawrence.aid">
 
     <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,9 +18,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MenuClass"/>
+        <activity android:name=".fLight"/>
+        <activity android:name=".hLines"/>
+        <activity android:name=".sirenClass"/>
+        <activity android:name=".compass"/>
+        <activity android:name=".kit"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-
+    <!--For the flashlight-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash"/>
+    <!--For the flashlight-->
 </manifest>
