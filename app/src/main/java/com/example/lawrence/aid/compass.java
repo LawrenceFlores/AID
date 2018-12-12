@@ -34,9 +34,10 @@ public class compass  extends AppCompatActivity implements SensorEventListener {
         tvHeading = (TextView) findViewById(R.id.txt_compass);
     }
 
-    public void backButtonCo(View v){
-        Intent i = new Intent(this, MenuClass.class);
-        startActivity(i);
+    public void back(View v) {
+
+        onBackPressed();
+
     }
 
     @Override

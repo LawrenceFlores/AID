@@ -13,7 +13,7 @@ import android.widget.Switch;
 public class sirenClass extends AppCompatActivity {
 
     MediaPlayer mediaPlayer;
-    ImageButton btnSiren;
+//    ImageButton btnSiren;
     private Boolean is_Playing = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,9 +57,11 @@ public class sirenClass extends AppCompatActivity {
         }
     }
 
-    public void backButtonSi(View v){
-        mediaPlayer.stop();
-        Intent i = new Intent(this, MenuClass.class);
-        startActivity(i);
+    public void back(View v) {
+        if (is_Playing == true){
+            mediaPlayer.stop();
+            is_Playing = false;
+        }
+        onBackPressed();
     }
 }

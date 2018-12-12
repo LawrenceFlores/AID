@@ -154,4 +154,9 @@ public class kit extends AppCompatActivity implements View.OnClickListener{
         }
     }
 
+    public void back(View v) {
+
+        onBackPressed();
+
+    }
 }

@@ -19,6 +19,7 @@
             android:layout_width="50dp"
             android:layout_height="0dp"
             android:background="#2f7a9a"
+            android:onClick="back"
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,10 +37,10 @@
             android:textColor="@android:color/white"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:fontFamily="@font/archivo_black"
+            app:fontFamily="sans-serif"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton8"
             app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
 

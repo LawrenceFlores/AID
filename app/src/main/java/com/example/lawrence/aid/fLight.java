@@ -81,8 +81,9 @@ public class fLight extends AppCompatActivity {
         }
     }
 
-    public void backButtonFlashlight(View v){
-        Intent i = new Intent(this, MenuClass.class);
-        startActivity(i);
+    public void back(View v) {
+
+        onBackPressed();
+
     }
 }

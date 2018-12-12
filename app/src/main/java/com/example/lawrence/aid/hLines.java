@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageButton;
 
 public class hLines extends AppCompatActivity {
     @Override
@@ -11,6 +12,7 @@ public class hLines extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hotline);
     }
+
 
 
     @Override
@@ -24,8 +26,11 @@ public class hLines extends AppCompatActivity {
         finish();
     }
 
-    public void backButton(View v){
-        Intent i = new Intent(this, MenuClass.class);
-        startActivity(i);
+    public void back(View v) {
+
+        onBackPressed();
+
     }
+
+
 }
